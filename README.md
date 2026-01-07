@@ -56,11 +56,23 @@ This implementation assumes **Euclidean TSP instances**, where distances are com
 ├── Instances/
 │   └── Small/
 │       └── berlin52.tsp
+│       └── kroA100.tsp
+│       └── lin105.tsp
+│       └── pr76.tsp
+│       └── ulysses22.tsp
+│   └── Medium/
+│       └── a280.tsp
+│       └── rat195.tsp
+│       └── st70.tsp
+│   └── Large/
+│       └── d1291.tsp
+│       └── pr1002.tsp
 ├── outputs/
-│   ├── tour_plots.png
-│   └── grasp_vs_2opt.png
+│   ├── before_vs_after_grasp+2opt_costs.png
+│   └── grasp+2opt_tour.png
+│   └── outlier_insertion_tour.png
 └── report/
-    └── Project_Report.pdf
+    └── tsp_report.pdf
 ```
 ## Requirements
 - Python 3.x
